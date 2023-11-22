@@ -1,0 +1,11 @@
+tensorflow
+numpy
+pillow
+scikit-image
+scipy
+augmentor
+matplotlib
+pandas
+seaborn
+pyside6
+xlsxwriter
