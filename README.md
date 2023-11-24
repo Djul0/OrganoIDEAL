@@ -89,3 +89,5 @@ Follow this steps:
 9) put your image into a file with subfolders training/ and validation/ with respective subfolders images/ and segmentations/
 10) train your model ! (i used this code with the --lite to make one compact and easy to use file.)
 > python OrganoID.py train path/to/training/files /path/to/output/model MODELname --lite
+
+When you will run your new model on new images, convert your images into 8bits tiff (or png) format.
