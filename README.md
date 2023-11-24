@@ -1,6 +1,6 @@
 # Improved OrganoID
 
-The code come from this [GitHub project](ttps://github.com/jono-m/OrganoID).
+The code come from this [GitHub project](https://github.com/jono-m/OrganoID).
 
 <h1>REQUIREMENTS</h1>
 
