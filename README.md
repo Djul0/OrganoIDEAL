@@ -102,6 +102,6 @@ Follow this steps:
 > python OrganoID.py train path/to/training/files /path/to/output/model MODELname --lite
 
 > [!IMPORTANT]
-> When you will run your new model on new images, convert your images into 8bits tiff (or png) format.
+> before you run your new model on new images, convert your images into 8bits tiff (or png) format.
 
 
