@@ -1,5 +1,7 @@
 # Improved OrganoID
 
+The code come from this [GitHub project](ttps://github.com/jono-m/OrganoID)).
+
 <h1>REQUIREMENTS</h1>
 
 OrganoID was run with the following software configuration:
