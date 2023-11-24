@@ -1,6 +1,6 @@
 # Improved OrganoID
 
-The code come from this [GitHub project](ttps://github.com/jono-m/OrganoID)).
+The code come from this [GitHub project](ttps://github.com/jono-m/OrganoID).
 
 <h1>REQUIREMENTS</h1>
 
@@ -92,4 +92,7 @@ Follow this steps:
 10) train your model ! (i used this code with the --lite to make one compact and easy to use file.)
 > python OrganoID.py train path/to/training/files /path/to/output/model MODELname --lite
 
-When you will run your new model on new images, convert your images into 8bits tiff (or png) format.
+> [!IMPORTANT]
+> When you will run your new model on new images, convert your images into 8bits tiff (or png) format.
+
+
