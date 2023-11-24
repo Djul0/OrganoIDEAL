@@ -74,3 +74,18 @@ https://osf.io/xmes4/
 * correction of error during training
 * Solve tracking empty image errors
 * Augment scrit slightly change (add a brightness random parametre)
+
+<h1>TRAINING</h1>
+
+Follow this steps:
+
+1) Randomly select your training dataset
+2) label images (i used roboflow)
+3) your labelled image should be the same size as your training images and as png format (if you have a coco json file you can convert them with the coco_to_png_fused.py script)
+4) convert your training dataset images into png and gray scale format (use imageJ > process > batch converter to convert all your file at once)
+5) convert your training dataset images into gray scale format (use the scipt gray_scale_converter.py to do so)
+7) both labelled and training image should have exacly the same name
+8) verify that the labelled image correspond to the correct training image
+9) put your image into a file with subfolders training/ and validation/ with respective subfolders images/ and segmentations/
+10) train your model ! (i used this code with the --lite to make one compact and easy to use file.)
+> python OrganoID.py train path/to/training/files /path/to/output/model MODELname --lite
