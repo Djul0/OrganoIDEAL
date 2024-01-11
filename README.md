@@ -69,7 +69,7 @@ Such as:
       │
       └── ...
 ```
-4) Use Classify app to rename properly all the image accordenly to their timepoint into a new folder.
+4) Use Classify app (https://github.com/Djul0/Classify.git) to rename properly all the image accordenly to their timepoint into a new folder.
 5) use this new folder with organoID to segment your images.
 6) If you want to track do not use user interface, instead use this command.
 > python Organoid.py run /path/to/model /path/to/input/images /path/to/output/segmentation -T 0.2 -A 35 --overlay --analyze --track
