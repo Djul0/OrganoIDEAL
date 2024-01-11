@@ -139,8 +139,8 @@ Follow this steps:
 Models we trained with our mesothelioma's images are under the folder "NewModel" :
 
 - **Model_test1**: Mesothelioma organoids (line Pm050), training with 33 images (23 for training, 10 for validations).
-- **ImprovedOptimizedModel**: continue the training of the existing Optimized model with our new training dataset.
-- **modelAugm_23-50**: use 117 labelled images and artificially augmented to 1153 images (1131 trainings, 22 validations).
+- **ImprovedOptimizedModel**: continue the training of the existing "Optimized model" with our new training dataset (same as Model_test1).
+- **modelAugm_23-50**: Mesothelioma organoids, use 117 labelled images and artificially augmented to 1153 images (1131 trainings, 22 validations).
 - **model_nonAugm**: is the same as "modelAugm_23-50" without the artificially augmention step 117 labelled images (95 training, 22 validation).
 
 
