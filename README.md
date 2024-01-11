@@ -132,6 +132,17 @@ Follow this steps:
 13) train your model ! (i used this code with the --lite to make one compact and easy to use file.)
 > python OrganoID.py train path/to/training/files /path/to/output/model MODELname --lite
 
+<h1>MODELS AVAILABLE</h1>
+
+- Optimized Model: Original model of OrganoID use Organoid From human pancreatic ductal adenocarcinoma images. Training with 66 labelled images (52 for training, 14 for validation) Artificially augmented to 2’000 images.
+
+Models we trained with our mesothelioma's images are under the folder "NewModel" :
+
+- **Model_test1**: Mesothelioma organoids (line Pm050), training with 33 images (23 for training, 10 for validations).
+- **ImprovedOptimizedModel**: continue the training of the existing Optimized model with our new training dataset.
+- **modelAugm_23-50**: use 117 labelled images and artificially augmented to 1153 images (1131 trainings, 22 validations).
+- **model_nonAugm**: is the same as "modelAugm_23-50" without the artificially augmention step 117 labelled images (95 training, 22 validation).
+
 
 
 
