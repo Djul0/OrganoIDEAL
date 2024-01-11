@@ -116,7 +116,18 @@ Follow this steps:
 9) both labelled and training image should have exacly the same name
 10) verify that the labelled image correspond to the correct training image
 11) put your image into a file with subfolders training/ and validation/ with respective subfolders images/ and segmentations/
-12) train your model ! (i used this code with the --lite to make one compact and easy to use file.)
+```
+      Main_Folder
+      │
+      ├── training
+      │   ├── images
+      │   └── segmentations
+      │
+      └── validation
+          ├── images
+          └── segmentations
+```    
+13) train your model ! (i used this code with the --lite to make one compact and easy to use file.)
 > python OrganoID.py train path/to/training/files /path/to/output/model MODELname --lite
 
 > [!IMPORTANT]
