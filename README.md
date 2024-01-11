@@ -60,7 +60,7 @@ Such as:
 
 1) Transfer brightfield images to your computer
 2) Images need to be in their respective timepoints folder. The main folder contain all the timepoint folder.
-
+```
       MainFolder
       │
       ├── timepoint1
@@ -68,7 +68,7 @@ Such as:
       ├── timepoint2
       │
       └── ...
-
+```
 4) Use Classify app to rename properly all the image accordenly to their timepoint into a new folder.
 5) use this new folder with organoID to segment your images.
 6) If you want to track do not use user interface, instead use this command.
