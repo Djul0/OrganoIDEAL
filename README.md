@@ -56,6 +56,15 @@ Such as:
 
 > python OrganoID.py train /path/to/trainingData /path/to/outputFolder NewModelName -M TrainableModel
 
+<h1>Step by step usage with multiple time point images</h1>
+
+1) Transfer brightfield images to your computer
+2) Images need to be in their respective timepoints folder. The main folder contain all the timepoint folder.
+3) Use Classify app to rename properly all the image accordenly to their timepoint into a new folder.
+4) use this new folder with organoID to segment your images.
+6) If you want to track do not use user interface, instead use this command.
+> python Organoid.py run /path/to/model /path/to/input/images /path/to/output/segmentation -T 0.2 -A 35 --overlay --analyze --track
+   
 
 <h1>USER INTERFACE</h1>
 
