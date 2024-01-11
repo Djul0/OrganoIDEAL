@@ -115,7 +115,7 @@ Follow this steps:
 
 9) both labelled and training image should have exacly the same name
 10) verify that the labelled image correspond to the correct training image
-11) put your image into a file with subfolders training/ and validation/ with respective subfolders images/ and segmentations/
+11) put your image into a file with subfolders training/ and validation/ with respective subfolders images/ and segmentations/. where the segmentations folders conatain the labeled images.
 ```
       Main_Folder
       │
